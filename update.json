@@ -1,0 +1,18 @@
+{
+  "manifest": {
+    "version": "9.9.9",
+    "notes": "End-to-end pipeline test (dummy artifacts)",
+    "published_at": "2026-09-08T17:57:04+00:00",
+    "assets": {
+      "docker": {
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v9.9.9/voltphish-9.9.9-docker.zip",
+        "sha256": "3706c2a5cee868836eac122b85cab0151280e5f7ac69cc9bb9a81c440e8c9f19"
+      },
+      "nodocker": {
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v9.9.9/voltphish-9.9.9-no-docker.zip",
+        "sha256": "ab736774b8e759243c6c0c2b962c76691de05e6be09068154b3b1d6051176a4e"
+      }
+    }
+  },
+  "sig": "5NWxUA5Poz_p4wrOgHGLak3q-3rQozrTySphyOCPS_GGIfr8Cgy1pvZeP3crYpmgw7ywHj26LJAr34jiLGV1Dw"
+}
