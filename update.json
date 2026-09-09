@@ -1,0 +1,18 @@
+{
+  "manifest": {
+    "version": "2.6.0",
+    "notes": "",
+    "published_at": "2026-09-09T08:07:21+00:00",
+    "assets": {
+      "docker": {
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.6.0/voltphish-2.6.0-docker.zip",
+        "sha256": "d0c1529d57f67645aab10b40847d791fe65e2aadba142d675c0d875e5b1bde0c"
+      },
+      "nodocker": {
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.6.0/voltphish-2.6.0-no-docker.zip",
+        "sha256": "006c3642ce675bdadef2d8a651e28f071b8cd03964b7217dcb41776398d30a11"
+      }
+    }
+  },
+  "sig": "7NgWo_VvXx5fpsWLNBjzBHX6kjGkDCAs8S75kYx7LEo7bBp_mM1HUjY9CnXIj7uB1fDmEe9U4irERPt7lZo_Dw"
+}
