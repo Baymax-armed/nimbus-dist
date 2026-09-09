@@ -1,18 +1,18 @@
 {
   "manifest": {
-    "version": "2.6.0",
-    "notes": "",
-    "published_at": "2026-09-09T08:07:21+00:00",
+    "version": "2.7.0",
+    "notes": "In-app Help chat + FAQ bot, in-app notifications, signed software updates, RBAC tiers (Security Manager / Analyst), a forgot-password helper, and a redesigned account menu. See CHANGELOG for details.",
+    "published_at": "2026-09-09T09:31:12+00:00",
     "assets": {
       "docker": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.6.0/voltphish-2.6.0-docker.zip",
-        "sha256": "d0c1529d57f67645aab10b40847d791fe65e2aadba142d675c0d875e5b1bde0c"
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.7.0/voltphish-2.7.0-docker.zip",
+        "sha256": "88d20ef4ecb9d9b6e0ed230c158d4b37943e4bc8ecd8b4ea60af8ddf8e949f5d"
       },
       "nodocker": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.6.0/voltphish-2.6.0-no-docker.zip",
-        "sha256": "006c3642ce675bdadef2d8a651e28f071b8cd03964b7217dcb41776398d30a11"
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.7.0/voltphish-2.7.0-no-docker.zip",
+        "sha256": "0160c27d6392b1d1b6277fddf265cc05eee965532bf9dc57af5447a38c2423a3"
       }
     }
   },
-  "sig": "7NgWo_VvXx5fpsWLNBjzBHX6kjGkDCAs8S75kYx7LEo7bBp_mM1HUjY9CnXIj7uB1fDmEe9U4irERPt7lZo_Dw"
+  "sig": "ZiAmvUTlO07Debqo-amusaJ2kIPEjzMCaq7iHv0yjkEBrj87BE9UWuXZwp41YqVNFONUd8rUeN7loKK6aqNwBw"
 }
