@@ -1,14 +1,14 @@
 {
   "manifest": {
-    "version": "2.8.0",
-    "notes": "VoltPhish 2.8.0 \u2014 client-feedback release\n\n**New**\n- **Run as a Windows service** \u2014 `install-service.ps1` auto-starts VoltPhish on boot and restarts it on crash (no Docker needed).\n- **MySQL for production** \u2014 point `VOLTPHISH_DATABASE_URL` at MySQL (TLS-verified, env-only credentials).\n- **Help & Support tab** \u2014 a searchable FAQ plus one-click email support.\n- **One-click Cloudflare quick tunnel** for public campaign links.\n- **Send a test email** while configuring a Sending Profile.\n- **Failed-campaign / send-error notifications** in the bell.\n\n**Changed**\n- \"Seats\" is now \"Users\"; tighter, more human copy throughout.\n\n**Fixed**\n- Software-update feed URL now auto-corrects GitHub `blob` links and reports clearer errors.\n\n_No-Docker release: unzip, run `run.ps1` once, then `install-service.ps1` (admin) to run it as a Windows service. Requires only Python 3.11+._",
-    "published_at": "2026-09-10T10:06:35+00:00",
+    "version": "2.8.1",
+    "notes": "VoltPhish 2.8.1 \u2014 credibility & licensing\n\n**Changed**\n- **Licence lapse is now read-only, not a hard lock.** When a paid key expires you can still view and export ALL your data \u2014 your evidence is never locked away \u2014 while launching, sending and edits pause until you install a current key. The hard lock now applies only to never-licensed or tampered installs. Code, the in-app Licence panel, and the docs all tell one consistent story.\n\n**Fixed**\n- Retired the stale \"New in 2.2.0\" banner (now reflects the current release).\n- Corrected the licence line in the comparison doc (AGPL-3.0 + optional commercial).\n\n_No-Docker release: unzip, run `run.ps1` once, then `install-service.ps1` (admin) to run it as a Windows service. Requires only Python 3.11+._",
+    "published_at": "2026-09-10T13:50:17+00:00",
     "assets": {
       "nodocker": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.0/voltphish-2.8.0-no-docker.zip",
-        "sha256": "61c987d3991632e3e5677d5d782ca1bf3be48ba4febca564688ef1c9e4fa4cf4"
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.1/voltphish-2.8.1-no-docker.zip",
+        "sha256": "7146fe4fd8b4a7da033f7e78b0a170e44aed5c4ba0cb3b249526898e864531cc"
       }
     }
   },
-  "sig": "wKHqOmp6rRpgItIXs5VIDUbwhQuRqz23g-Zroptz7wv3RMW8DTYnwHzTclfgvaFWN1ZsdxAy3k6omOM4eygrBQ"
+  "sig": "PL5QHL5TLYi4yhMatLfagy0bCjtMsBa3RaHgRiH_JPOzMIYAbUljS1dwjdDvwAip8wfBDC_eGvds7rv1ZoH1Bg"
 }
