@@ -1,14 +1,18 @@
 {
   "manifest": {
-    "version": "2.8.1",
-    "notes": "VoltPhish 2.8.1 \u2014 credibility & licensing\n\n**Changed**\n- **Licence lapse is now read-only, not a hard lock.** When a paid key expires you can still view and export ALL your data \u2014 your evidence is never locked away \u2014 while launching, sending and edits pause until you install a current key. The hard lock now applies only to never-licensed or tampered installs. Code, the in-app Licence panel, and the docs all tell one consistent story.\n\n**Fixed**\n- Retired the stale \"New in 2.2.0\" banner (now reflects the current release).\n- Corrected the licence line in the comparison doc (AGPL-3.0 + optional commercial).\n\n_No-Docker release: unzip, run `run.ps1` once, then `install-service.ps1` (admin) to run it as a Windows service. Requires only Python 3.11+._",
-    "published_at": "2026-09-10T13:50:17+00:00",
+    "version": "2.8.2",
+    "notes": "Rahul bhai fixes",
+    "published_at": "2026-09-10T19:47:15+00:00",
     "assets": {
-      "nodocker": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.1/voltphish-2.8.1-no-docker.zip",
-        "sha256": "7146fe4fd8b4a7da033f7e78b0a170e44aed5c4ba0cb3b249526898e864531cc"
+      "windows": {
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.2/voltphish-2.8.2-windows.zip",
+        "sha256": "b071d78f442a9f4d472e04f30945340c98515978e0ae2e1ae0184313bc71bbde"
+      },
+      "linux": {
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.2/voltphish-2.8.2-linux.zip",
+        "sha256": "fc5af7102060b9dc9c03200d58e108b345b7cb2546c3002dd40491abac7637ba"
       }
     }
   },
-  "sig": "PL5QHL5TLYi4yhMatLfagy0bCjtMsBa3RaHgRiH_JPOzMIYAbUljS1dwjdDvwAip8wfBDC_eGvds7rv1ZoH1Bg"
+  "sig": "FmMb4TtZzXTft7kZPj53hT0RURmDnWOCYP9CFH-6xx1Txde8qRbN0qqRfYKVi4r3bzPSz69LpVMYqLMVbxBaDg"
 }
