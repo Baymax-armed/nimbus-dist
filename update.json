@@ -1,18 +1,14 @@
 {
   "manifest": {
-    "version": "2.7.1",
-    "notes": "VoltPhish 2.7.1 \u2014 bug-fix release\n\n**Fixed**\n- **Email now always sends for real.** The console/dry-run mail backend that silently wrote \"sent\" emails to disk instead of delivering them \u2014 making campaigns and training appear sent while nobody received anything \u2014 has been removed. Real SMTP delivery via your Sending Profile is now unconditional. To rehearse without real email, point a profile at a local catch-all mailbox (Mailpit/MailHog).\n- **Readable profile menu in light mode** (was near-white text on a white surface).\n- **Theme-aware dropdowns & checkboxes** \u2014 native controls now follow the light/dark theme.\n\nUpdate via **Settings \u2192 Software updates**, or pull the new Docker image / no-docker zip below.",
-    "published_at": "2026-09-09T18:33:10+00:00",
+    "version": "2.8.0",
+    "notes": "VoltPhish 2.8.0 \u2014 client-feedback release\n\n**New**\n- **Run as a Windows service** \u2014 `install-service.ps1` auto-starts VoltPhish on boot and restarts it on crash (no Docker needed).\n- **MySQL for production** \u2014 point `VOLTPHISH_DATABASE_URL` at MySQL (TLS-verified, env-only credentials).\n- **Help & Support tab** \u2014 a searchable FAQ plus one-click email support.\n- **One-click Cloudflare quick tunnel** for public campaign links.\n- **Send a test email** while configuring a Sending Profile.\n- **Failed-campaign / send-error notifications** in the bell.\n\n**Changed**\n- \"Seats\" is now \"Users\"; tighter, more human copy throughout.\n\n**Fixed**\n- Software-update feed URL now auto-corrects GitHub `blob` links and reports clearer errors.\n\n_No-Docker release: unzip, run `run.ps1` once, then `install-service.ps1` (admin) to run it as a Windows service. Requires only Python 3.11+._",
+    "published_at": "2026-09-10T10:06:35+00:00",
     "assets": {
-      "docker": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.7.1/voltphish-2.7.1-docker.zip",
-        "sha256": "f7b63bf1f870d98afdd89a404c22a5e12c2defc8d824a5a50b8f80eeacbd74f7"
-      },
       "nodocker": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.7.1/voltphish-2.7.1-no-docker.zip",
-        "sha256": "fb2dc31cf2b026931a75011d9adeba8919a840864ae06c056bb7c6c4d34cb4ee"
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.0/voltphish-2.8.0-no-docker.zip",
+        "sha256": "61c987d3991632e3e5677d5d782ca1bf3be48ba4febca564688ef1c9e4fa4cf4"
       }
     }
   },
-  "sig": "uCKMyUw63a_Si8FkN7w82kLMQ5ePvmwjeh0kE7bREWTcZAc4czpw-9vEV9kVC6i1HbSckBbWLvYMzbzP2iXuCQ"
+  "sig": "wKHqOmp6rRpgItIXs5VIDUbwhQuRqz23g-Zroptz7wv3RMW8DTYnwHzTclfgvaFWN1ZsdxAy3k6omOM4eygrBQ"
 }
