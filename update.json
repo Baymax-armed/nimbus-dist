@@ -1,18 +1,18 @@
 {
   "manifest": {
-    "version": "2.8.3",
-    "notes": "Update check now reports the real reason (missing feed URL / unreachable / not a signed feed) instead of always saying 'latest version'; a manual Check now works with just a feed URL saved, even if auto-check is off.",
-    "published_at": "2026-09-11T13:00:55+00:00",
+    "version": "2.8.4",
+    "notes": "Zero-setup updates: the vendor update feed is now baked in, so a fresh install auto-checks for updates with no URL to paste.",
+    "published_at": "2026-09-11T13:17:09+00:00",
     "assets": {
       "windows": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.3/voltphish-2.8.3-windows.zip",
-        "sha256": "9c9bd52e93c6f2e01bb225b3e2aa7c6a9c429dfe0304f9d8e7640597c8d575f8"
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.4/voltphish-2.8.4-windows.zip",
+        "sha256": "e68a367b609afed178448e6e4c6442e9f5d8bab0d9777b6aa58d31a2b694ccdc"
       },
       "linux": {
-        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.3/voltphish-2.8.3-linux.zip",
-        "sha256": "9acbe0e2437b6bed100fdab8f26163cc1a91e02b6f5e1f019bf8abed1e0a0e3a"
+        "url": "https://github.com/Baymax-armed/nimbus-dist/releases/download/v2.8.4/voltphish-2.8.4-linux.zip",
+        "sha256": "0ba8a5915d7d7fa40f8370765e90e3b4e46ccbb06bf2a1bb1dbe287f21f0ed03"
       }
     }
   },
-  "sig": "Mkje-0Zs1KbtlmKVyqbMdXqSh40qiQJHyk2Or9-0kxFdEHMF2XyhCy8I5a7mgTM-mL8bwnthqReCTyeVEOibBQ"
+  "sig": "dGL2HT6rkUM0kd8iVpuhdL2mcCcH0g_iOew8dEow1YdwgzB7vvA-LRaaNvI3YV00OLSdXx0ZJYQpZtxKZ4coBA"
 }
